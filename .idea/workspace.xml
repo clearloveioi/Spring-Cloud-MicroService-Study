@@ -4,11 +4,46 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e6f36e-f1f9-40db-a009-2b0b41da4dcb" name="Default" comment="" />
+    <list default="true" id="98e6f36e-f1f9-40db-a009-2b0b41da4dcb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/MovieFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/controller/FeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/service/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/MicroService-Consumer-Movie-Ribbon-With-Hystrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/MovieRibbonHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/controller/RibbonhystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/service/RibbonHystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/MicroService-Consumer-Movie-Ribbon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/MovieRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/controller/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/service/RibbonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/MicroService-Hystrix-Dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/java/com/jiuying/HystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroServive-Provider-User/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroServive-Provider-User/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/MicroService-Discovery-Eureka/target/" />
     <ignored path="$PROJECT_DIR$/MicroServive-Provider-User/target/" />
+    <ignored path="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/target/" />
+    <ignored path="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,33 +55,24 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MicroService-Discovery-Eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/com/jiuying/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/MicroServive-Provider-User/pom.xml" />
         <option value="$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/entity/User.java" />
@@ -56,7 +82,30 @@
         <option value="$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/MovieRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/entity/User.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/controller/RibbonController.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/service/RibbonService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiuying/MovieFeignApplication.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/MovieFeignApplication.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/entity/User.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/MovieRibbonHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/entity/User.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/service/RibbonHystrixService.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/controller/RibbonhystrixController.java" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/service/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/java/com/jiuying/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -75,25 +124,35 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-microservice-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="241" />
-    <option name="y" value="147" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="715" />
+    <option name="y" value="141" />
     <option name="width" value="1040" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,67 +160,14 @@
               <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService-Discovery-Eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService-Discovery-Eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService-Discovery-Eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService-Discovery-Eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroServive-Provider-User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroServive-Provider-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroServive-Provider-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Cloud-MicroService-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-MicroService-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroServive-Provider-User" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -171,14 +177,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="AspectJ&#10;JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../soft/git/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -197,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,6 +232,36 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiuying.EurekaApplication" />
+    </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MicroService-Hystrix-Dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiuying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiuying.HystrixDashboardApplication" />
+    </configuration>
+    <configuration name="MovieFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MicroService-Consumer-Movie-Feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiuying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiuying.MovieFeignApplication" />
+    </configuration>
+    <configuration name="MovieRibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MicroService-Consumer-Movie-Ribbon-With-Hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiuying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiuying.MovieRibbonHystrixApplication" />
     </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="MicroServive-Provider-User" />
@@ -262,11 +298,17 @@
     <list>
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.MovieFeignApplication" />
+      <item itemvalue="Spring Boot.MovieRibbonHystrixApplication" />
+      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.HystrixDashboardApplication" />
+        <item itemvalue="Spring Boot.MovieRibbonHystrixApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.MovieFeignApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -280,52 +322,88 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567147221820</updated>
-      <workItem from="1567147228139" duration="14591000" />
+      <workItem from="1567147228139" duration="29511000" />
+      <workItem from="1567582028101" duration="1824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14591000" />
+    <option name="totallyTimeSpent" value="31335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="MyBatis Log" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32897604" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3137255" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32897604" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Log" order="7" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.29989094" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32897604" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32897604" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.22228146" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="2" weight="0.32897604" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32897604" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Inspection Results" order="2" weight="0.32897604" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32897604" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3293348" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22228146" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="MyBatis Log" order="7" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.29989094" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -334,9 +412,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/EurekaApplication.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -351,29 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/EurekaApplication.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/EurekaApplication.uml" />
     <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/target/classes/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -401,25 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/com/jiuying/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/controller.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Entity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -431,20 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,21 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,27 +519,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/MovieRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/controller/RibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/java/com/jiuying/service/RibbonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiuying/MovieFeignApplication.java" />
+    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/java/com/jiuying/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Discovery-Eureka/src/main/java/com/jiuying/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.1.1.RELEASE/spring-cloud-commons-1.1.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroServive-Provider-User/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/MovieFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/service/RibbonHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/controller/RibbonhystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Feign/src/main/java/com/jiuying/service/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/java/com/jiuying/MovieRibbonHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Hystrix-Dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/java/com/jiuying/HystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Hystrix-Dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService-Consumer-Movie-Ribbon-With-Hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -588,7 +807,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MicroServive-Provider-User</last-edited>
+          <last-edited>MicroService-Discovery-Eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

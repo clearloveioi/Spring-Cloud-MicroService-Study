@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MicroService-Consumer-Movie-Feign" />
+        <module name="MicroService-Consumer-Movie-Ribbon" />
+        <module name="MicroService-Consumer-Movie-Ribbon-With-Hystrix" />
         <module name="MicroService-Discovery-Eureka" />
+        <module name="MicroService-Hystrix-Dashboard" />
         <module name="MicroServive-Provider-User" />
       </profile>
     </annotationProcessing>

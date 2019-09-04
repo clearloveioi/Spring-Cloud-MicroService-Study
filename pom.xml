@@ -10,21 +10,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <!--<module>microservice-provider-user</module>-->
-        <!--<module>microservice-consumer-movie-ribbon</module>-->
-        <!--<module>microservice-consumer-movie-feign</module>-->
-        <!--<module>microservice-consumer-movie-ribbon-with-hystrix</module>-->
-        <!--<module>microservice-consumer-movie-feign-with-hystrix</module>-->
-        <!--<module>microservice-hystrix-dashboard</module>-->
-        <!--<module>microservice-consumer-movie-feign-with-hystrix-stream</module>-->
-        <!--<module>microservice-hystrix-turbine</module>-->
-        <!--<module>microservice-config-server</module>-->
-        <!--<module>microservice-config-client</module>-->
-        <!--<module>microservice-config-server-eureka</module>-->
-        <!--<module>microservice-config-client-eureka</module>-->
-        <!--<module>microservice-api-gateway</module>-->
         <module>MicroService-Discovery-Eureka</module>
         <module>MicroServive-Provider-User</module>
+        <module>MicroService-Consumer-Movie-Ribbon</module>
+        <module>MicroService-Consumer-Movie-Feign</module>
+        <module>MicroService-Consumer-Movie-Ribbon-With-Hystrix</module>
+        <module>MicroService-Hystrix-Dashboard</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
