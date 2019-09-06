@@ -16,6 +16,10 @@
         <module>MicroService-Consumer-Movie-Feign</module>
         <module>MicroService-Consumer-Movie-Ribbon-With-Hystrix</module>
         <module>MicroService-Hystrix-Dashboard</module>
+        <module>MicroServoce-Config-Server</module>
+        <module>MicroService-Config-Client</module>
+        <module>MicroService-Config-Server-Eureka</module>
+        <module>MicroService-API-Gateway</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
