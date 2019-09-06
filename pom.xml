@@ -18,7 +18,6 @@
         <module>MicroService-Hystrix-Dashboard</module>
         <module>MicroServoce-Config-Server</module>
         <module>MicroService-Config-Client</module>
-        <module>MicroService-Config-Server-Eureka</module>
         <module>MicroService-API-Gateway</module>
     </modules>
 
