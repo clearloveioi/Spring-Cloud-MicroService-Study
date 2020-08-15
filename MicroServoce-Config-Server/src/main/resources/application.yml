@@ -9,5 +9,5 @@ spring:
         git:
           uri: https://github.com/clearloveioi/Spring-Cloud-MicroService-Study    # 配置git仓库的地址
           search-paths: config-repo                                               # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username: grw1017@163.com                                               # git仓库的账号
-          password: grw0.123                                                      # git仓库的密码
+          username: grw********.com                                               # git仓库的账号
+          password: ********                                                      # git仓库的密码
